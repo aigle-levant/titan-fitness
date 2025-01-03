@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  font-family: "PT Serif", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  border-radius: 8%;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+a, a:focus, a:hover, a:active {
+  text-decoration: none;
+}
+
+.navbar {
+  position: sticky;
+  padding: 20px;
+}
+.navbar .navbar-burger {
+  position: absolute;
+  right: 0;
+}
+.navbar .menu {
+  text-align: center;
+}
+
+.main {
+  padding: 4rem;
+}
+.main .hero-content {
+  display: flex;
+  flex-direction: column;
+}
+.main .hero-content .hero-image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+  gap: 1rem;
+  max-width: 100vh;
+}
+.main .hero-content .hero-image-container #hero-one {
+  grid-row: span 2;
+  align-self: center;
+  justify-self: center;
+}
+.main .hero-content .hero-image-container #hero-two {
+  grid-row: span 1;
+}
+.main .hero-content .title {
+  line-height: 1.1;
+}
+.main .hero-content .hero-para {
+  padding: 1rem;
+  line-height: 20px;
+}
+.main .section {
+  width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.main .section .title {
+  line-height: 50px;
+  margin-bottom: 1rem;
+}
+.main .section .image {
+  margin: 1rem 0;
+}
+.main .section .subtitle {
+  margin: 2rem;
+  line-height: 20px;
+}
+.main .section .button {
+  margin-top: 1rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.swiper {
+  position: absolute;
+  left: 0;
+  margin: 1rem 0;
+  width: 100%;
+  height: 300px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+}
+.swiper-slide .slider-img {
+  max-width: 40%;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  border-radius: 0;
+  margin-right: 2rem;
+}
+.swiper-slide .swiper-slide-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.header {
+  margin-bottom: 1rem;
+}
+
+.hero {
+  margin: 1rem 0 2rem 0;
+}
+
+.grid {
+  display: block;
+}
+
+.grid-item {
+  width: 48%;
+  margin-bottom: 16px;
+}
+
+img {
+  border-radius: 0;
+}
+
+@media (max-width: 768px) {
+  .grid-item {
+    width: 100%;
+  }
+}/*# sourceMappingURL=gallery.css.map */

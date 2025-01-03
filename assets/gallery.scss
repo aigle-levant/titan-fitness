@@ -1,0 +1,29 @@
+@import 'style';
+
+.header
+{
+    margin-bottom: 1rem;
+}
+
+.hero
+{
+    margin: 1rem 0 2rem 0;
+}
+
+.grid { display: block; }
+
+.grid-item
+{
+    width: 48%;
+    margin-bottom: 16px;
+}
+
+img
+{
+    border-radius: 0;
+}
+
+@media (max-width: 768px)
+{
+    .grid-item { width: 100%;}
+}

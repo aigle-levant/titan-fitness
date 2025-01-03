@@ -25,6 +25,10 @@ button {
   font-family: "Montserrat", sans-serif;
 }
 
+a, a:focus, a:hover, a:active {
+  text-decoration: none;
+}
+
 .navbar {
   position: sticky;
   padding: 20px;
@@ -84,6 +88,20 @@ button {
 }
 .main .section .button {
   margin-top: 1rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
 }
 
 .swiper {
